@@ -1,4 +1,4 @@
-name: Python application
+name: MLOps with Python application
 
 on:
   push:
