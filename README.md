@@ -1,10 +1,5 @@
 [![MLOps with Python application](https://github.com/EzioDEVio/MLOps/actions/workflows/main.yml/badge.svg)](https://github.com/EzioDEVio/MLOps/actions/workflows/main.yml)   [![Build and Push Docker image to Github Container Registry](https://github.com/EzioDEVio/MLOps/actions/workflows/GHCR.yml/badge.svg)](https://github.com/EzioDEVio/MLOps/actions/workflows/GHCR.yml)
 
-Creating a `README.md` file for your MLOps project is crucial for anyone who wants to understand, use, or contribute to your project. Here is a step-by-step guide you can use to draft your `README.md`. This guide will cover setting up the application, explaining its purpose, and integrating it into a CI/CD pipeline.
-
-### README.md
-
-```markdown
 # MLOps Application for Real Estate Price Prediction
 
 This project demonstrates the application of Machine Learning Operations (MLOps) principles to a real estate price prediction model. It includes setting up a Flask application to serve predictions from a trained model and deploying this application using Docker and integrating it into a CI/CD workflow.
@@ -137,6 +132,6 @@ Contributions to this project are welcome! Please fork the repository and submit
 ## License
 
 Specify your project's license here, typically MIT or similar.
-```
+
 
 .
