@@ -1,0 +1,93 @@
+/* style.css file content */
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #eaeaea;
+}
+
+.wrapper {
+    min-height: 100%;
+    position: relative;
+    padding-bottom: 50px; /* Footer height */
+}
+
+header {
+    background-color: #004b97;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+.form-container {
+    width: 60%;
+    margin: 30px auto;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.input-group {
+    margin-bottom: 10px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.submit-btn button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #5cb85c;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.submit-btn button:hover {
+    background-color: #4cae4c;
+}
+
+footer {
+    position: absolute;
+    width: 100%;
+    height: 50px; /* Footer height */
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    bottom: 0;
+    left: 0;
+}
+
+footer p {
+    margin: 0;
+    padding: 15px;
+}
+
+/* Add this to your existing style.css content */
+.prediction-result {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    text-align: center;
+    font-size: 1.2em;
+    color: #333;
+}

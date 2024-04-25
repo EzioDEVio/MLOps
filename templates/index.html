@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real Estate Price Predictor</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <script src="/static/predict.js"></script>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <h1>Home Price Estimator</h1>
+        </header>
+        <main>
+            <form id="predictionForm">
+                <div class="input-group">
+                    <label for="MedInc">Median Income:</label>
+                    <input type="text" id="MedInc" name="MedInc" placeholder="Median Income" required>
+                </div>
+                <div class="input-group">
+                    <label for="HouseAge">House Age:</label>
+                    <input type="text" id="HouseAge" name="HouseAge" placeholder="House Age" required>
+                </div>
+                <div class="input-group">
+                    <label for="AveRooms">Average Rooms:</label>
+                    <input type="text" id="AveRooms" name="AveRooms" placeholder="Average Rooms" required>
+                </div>
+                <div class="input-group">
+                    <label for="AveBedrms">Average Bedrooms:</label>
+                    <input type="text" id="AveBedrms" name="AveBedrms" placeholder="Average Bedrooms" required>
+                </div>
+                <div class="input-group">
+                    <label for="Population">Population:</label>
+                    <input type="text" id="Population" name="Population" placeholder="Population" required>
+                </div>
+                <div class="input-group">
+                    <label for="AveOccup">Average Occupancy:</label>
+                    <input type="text" id="AveOccup" name="AveOccup" placeholder="Average Occupancy" required>
+                </div>
+                <div class="input-group">
+                    <label for="Latitude">Latitude:</label>
+                    <input type="text" id="Latitude" name="Latitude" placeholder="Latitude" required>
+                </div>
+                <div class="input-group">
+                    <label for="Longitude">Longitude:</label>
+                    <input type="text" id="Longitude" name="Longitude" placeholder="Longitude" required>
+                </div>
+                <div class="submit-btn">
+                    <button type="submit">Predict</button>
+                </div>
+            </form>
+            <div id="predictionResult" class="prediction-result"></div>
+        </main>
+        <footer>
+            <p>&copy; 2024 Real Estate Price Predictor</p>
+        </footer>
+    </div>
+</body>
+</html>
