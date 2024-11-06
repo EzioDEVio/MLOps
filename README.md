@@ -131,7 +131,7 @@ Contributions to this project are welcome! Please fork the repository and submit
 
 ## License
 
-Specify your project's license here, typically MIT or similar.
+MIT.
 
 
 .
