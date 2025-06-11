@@ -1,5 +1,8 @@
 [![MLOps with Python application](https://github.com/EzioDEVio/MLOps/actions/workflows/main.yml/badge.svg)](https://github.com/EzioDEVio/MLOps/actions/workflows/main.yml)   [![Build and Push Docker image to Github Container Registry](https://github.com/EzioDEVio/MLOps/actions/workflows/GHCR.yml/badge.svg)](https://github.com/EzioDEVio/MLOps/actions/workflows/GHCR.yml)
 ![Stars](https://img.shields.io/github/stars/EzioDEVio/MLOps?style=social)
+![MIT License](https://img.shields.io/github/license/EzioDEVio/MLOps)
+![Repo Size](https://img.shields.io/github/repo-size/EzioDEVio/MLOps)
+![Last Commit](https://img.shields.io/github/last-commit/EzioDEVio/MLOps?color=blue)
 
 # MLOps Application for Real Estate Price Prediction
 
